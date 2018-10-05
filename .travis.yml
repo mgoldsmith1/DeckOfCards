@@ -4,10 +4,7 @@ matrix:
     include:
         - os: osx
           language: python
-          env: TOXENV=py32
-        - os: osx
-          language: python
-          env: TOXENV=py33
+          env: TOXENV=py36
           
 before_install:
     - ./.travis/install.sh
