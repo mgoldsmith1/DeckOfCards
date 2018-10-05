@@ -11,10 +11,11 @@ The four suits are:
 S - Spade (♠), C - Club(♣), H - Heart(♥), D - Diamond(♦)
 
 The cards are given using their rank followed by their suit:
-
+```bash
 2 of Spades: 2S
 Ace of Clubs: AC
 10 of Hearts: TH
+```
 
 Write a function that will accept an array of cards and return the number of full decks contained in the array.
 
