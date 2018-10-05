@@ -1,4 +1,4 @@
-# vigilant-giggle
+# Deck-Of-Cards
 
 In a casino, all the playing cards got mixed up, and some of them got lost. You have to collect as many full decks as possible.
 
