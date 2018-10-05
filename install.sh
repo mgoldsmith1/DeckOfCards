@@ -6,7 +6,10 @@ if [[ $TRAVIS_OS_NAME == 'osx' ]]; then
     # e.g. brew install pyenv-virtualenv
 
     case "${TOXENV}" in
-        py36)
+        py32)
+            # Install some custom Python 3.2 requirements on OS X
+            ;;
+        py33)
             # Install some custom Python 3.3 requirements on OS X
             ;;
     esac
