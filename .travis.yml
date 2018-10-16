@@ -1,5 +1,9 @@
 # Let travis know the language it needs to run
+sudo: false
+
 language: python
+
+os: osx
 
 # Mention the python version in which travis will run the app
 python:
