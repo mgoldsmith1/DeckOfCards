@@ -1,8 +1,8 @@
-# Deck-Of-Cards
+# vigilant-giggle
 
 In a casino, all the playing cards got mixed up, and some of them got lost. You have to collect as many full decks as possible.
 
-You get N mixed up French playing cards as your input. 
+You get N mixed up Jeu de Cartes (French playing cards) as your input. 
 
 The cards are of the following ranks:
 2, 3, 4, 5, 6, 7, 8, 9, T, J, Q, K, A
