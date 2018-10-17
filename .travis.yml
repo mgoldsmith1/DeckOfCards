@@ -5,6 +5,11 @@
 # Mention the python version in which travis will run the app
 python:
   - 3.6
+matrix:
+  include:
+    - python: 3.7
+      dist: xenial
+      sudo: true
 
 os: osx
 
