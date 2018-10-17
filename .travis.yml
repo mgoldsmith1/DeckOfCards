@@ -1,29 +1,9 @@
-# Let travis know the language it needs to run
-#sudo: false
-
-# Mention the python version in which travis will run the app
-
-language:
-  - python
-  
-os: osx
+language: python
 
 python:
-  - 3.6
-  
-install:
-  - pip install -r requirements.txt
-  
-matrix:
-  include:
-    - python: 3.7  
-      dist: xenial
-      sudo: false # sudo: true
 
-script:
-  - ./install.sh
-  - ./totravis.sh
-  - pytest
+  - "3.6"
 
-notifications:
-  email: false
+script: 
+
+  - python3 solution.py
