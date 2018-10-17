@@ -1,6 +1,6 @@
 [run]
 branch = True
-source = 
+source = .
 
 [report]
 exclude_lines =
