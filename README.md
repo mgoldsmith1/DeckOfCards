@@ -1,4 +1,4 @@
-![screenshot](https://travis-ci.org/mgoldsmith1/DeckOfCards.svg?branch=master)
+![screenshot](https://travis-ci.org/mgoldsmith1/DeckOfCards.svg?branch=master) [![codecov](https://codecov.io/gh/mgoldsmith1/DeckOfCards/branch/master/graph/badge.svg)](https://codecov.io/gh/mgoldsmith1/DeckOfCards)
 # Deck-Of-Cards
 
 In a casino, all the playing cards got mixed up, and some of them got lost. You have to collect as many full decks as possible.
