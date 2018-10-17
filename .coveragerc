@@ -1,6 +1,6 @@
 [run]
 branch = True
-source = __main__
+source = .
 
 [report]
 exclude_lines =
