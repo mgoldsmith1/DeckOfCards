@@ -4,6 +4,16 @@ python:
 
   - "3.6"
 
-script: 
+#script: 
 
+ # - python3 solution.py
+
+install:
+  - pip install codecov
+
+script:
   - python3 solution.py
+  - coverage run solution.py
+
+after_success:
+  - codecov

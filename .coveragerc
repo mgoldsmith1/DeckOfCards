@@ -1,22 +1,13 @@
-# When you want to specify the files that can only be tested
-
 [run]
-source =
-    app/
-    tests/
+branch = True
+source = __DeckOfCards__
 
-# Let the system/travis understand the files to omit
-
-omit =
-    app/__init__.py
-    tests/__init__.py
-    app/models.py
-
-# Showing report received
 [report]
-show_missing = True
-
-# Exclude specific lines
 exclude_lines =
-    def __repr__
-    def __init__
+    if self.debug:
+    pragma: no cover
+    raise NotImplementedError
+    if __name__ == .__main__.:
+ignore_errors = True
+omit =
+    tests/*
