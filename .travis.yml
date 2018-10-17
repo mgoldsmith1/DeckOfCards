@@ -12,12 +12,12 @@ compiler:
  - gcc
 
 language:
-  - cpp
+  #- cpp
   - python
 
 script:
   - ./totravis.sh
-  - pytest
+ # - pytest
 
 notifications:
   email: false
