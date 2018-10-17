@@ -1,6 +1,6 @@
 [run]
 branch = True
-source = __DeckOfCards__
+source = __name__
 
 [report]
 exclude_lines =
