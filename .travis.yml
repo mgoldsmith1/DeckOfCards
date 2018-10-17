@@ -7,7 +7,7 @@ python:
   - 3.6
 matrix:
   include:
-    - python: 3.7
+    - python: 3.6  #- python: 3.7
       dist: xenial
       sudo: true
 
@@ -17,9 +17,10 @@ os: osx
 language:
   #- cpp
   - python
-
-script:
+before_install:
   - ./install.sh
+script:
+  #- ./install.sh
   - ./totravis.sh
   - pytest
 
