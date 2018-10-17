@@ -8,8 +8,6 @@ python:
 
 os: osx
 
-compiler:
- - gcc
 
 language:
   #- cpp
@@ -17,7 +15,7 @@ language:
 
 script:
   - ./totravis.sh
- # - pytest
+  - pytest
 
 notifications:
   email: false
