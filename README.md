@@ -22,3 +22,6 @@ Write a function that will accept an array of cards and return the number of ful
 
 ## Testing
 I am using [pytest](https://docs.pytest.org/en/latest/) for Unit Testing in Python.
+
+## Coverage
+Test coverage is verified by [Codecov](https://codecov.io/) via [Travis CI](https://travis-ci.org/).
