@@ -1,12 +1,7 @@
 language: python
 
 python:
-
   - "3.6"
-
-#script: 
-
- # - python3 solution.py
 
 install:
   - pip install codecov
